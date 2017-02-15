@@ -11,7 +11,6 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 	<?php wp_head(); ?>
-  	<link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,700,800" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
 
