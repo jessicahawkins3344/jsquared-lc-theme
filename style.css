@@ -1,0 +1,146 @@
+/*
+	Theme Name: JSquared LC Theme
+	Theme URI: http://jsquaredcreative.com
+	Author: Jessica Hawkins
+	Author URI: http://jsquaredcreative.com
+	Description: Custom Multipurpose theme made for optimal use with the Live Composer plugin for jsquaredcreative.com
+	Version: 1.0
+	License: GPL2
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/**
+ * Reset CSS
+ */
+
+a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,iframe,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}html{font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{background:#fff}article,aside,details,figcaption,figure,footer,header,main,nav,section{display:block}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,td,th{font-weight:400;text-align:left}blockquote:after,blockquote:before,q:after,q:before{content:""}blockquote,q{quotes:"" ""}a:focus{outline:thin dotted}a:active,a:hover{outline:0}a img{border:0}
+
+img, embed, iframe, object { max-width: 100%; }
+
+body 
+
+.align-center { text-align: center; }
+
+ul.list-solutions li { padding: 0px 15px!important; }
+
+.count-heading {text-align: center!important; }
+
+input.edd-input, input, input[type=text], input[type=email], input[type=email] {
+  width: 100%!important;
+}
+
+label.edd {
+  margin-bottom: 3px;
+}
+#edd-email-wrap { margin-top: 10px; }
+img.payment-icon {
+    height: 0px;
+}
+.edd-payment-icons {
+background: url(https://lh3.googleusercontent.com/3kdStTefpgBjNg4wFAv90RWijWnJPTw1jQ7CpN6nv3EacXENGRbBnKa8w5PoaUxRtR3Y_6QoY6dsXqbL1NRRKfPMFOndSgKG=s0);
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+    height: 70px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    margin: 15px 0px 35px;
+}
+
+.edd_checkout_wrap {
+  margin-top: 40px!important;
+    padding: 60px!important;
+    border: 2px solid #fafafa!important;
+    border-radius: 10px;
+
+}
+.submit {
+    border-style: none none solid none;
+    border-radius: 3px!important;
+    color: #fff;
+    font-size: 16px!important;
+    font-weight: 500;
+    font-family: "Montserrat";
+    line-height: 16px!important;
+    padding: 18px 25px!important;
+}
+
+.nf-form-fields-required {
+  margin-bottom: 15px!important;
+}
+
+.full-height {
+  height: 100vh!important;
+}
+
+#dslc-content .dslc-navigation .menu > li > a { font-weight: lighter!important; }
+
+.super-checkbox.display-vertical .super-field-wrapper label input { width: inherit!Important; }
+
+.super-field .super-label {
+    padding: 0px 0px 5px 0px;
+    font-family: 'Work Sans'!important;
+    font-weight: lighter!important;
+    font-size: 20px!important;
+    line-height: 30px!important;
+    margin-bottom: 5px!important;
+}
+
+.super-form-4169 .super-field .super-description {
+    color: #8e8e8e;
+    font-family: 'Work Sans'!important;
+    font-weight: lighter!important;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.super-field.super-divider { width: 100%!important; }
+.super-divider.style-dashed .super-divider-inner {
+    border-style: double;
+    height: 2px!important;
+    border-color: rgba(90, 101, 112, 0.18)!important;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.post-thumb { 
+  border-radius: 10px!important;
+    right: 25px!important;
+    position: relative!important;
+  	max-width: 700px!Important;
+  	height: auto!important;
+}
+
+#dslc-content .dslc-blog-post-meta { border: 0!important }
+#dslc-content .dslc-blog-post-meta-date,#dslc-module-24fd0ac3637 .dslc-blog-post-meta {
+    float: none;
+    letter-spacing: .2rem!important;
+    text-transform: uppercase!important;
+    position: relative;
+    overflow: visible;
+    display: inline-flex;
+}
+
+.dslc-tp-meta { letter-spacing: .2rem!Important; }
+.sfsiplus_norm_row sfsi_plus_wDiv { width: 100%!important; }
+.sfsi_plus_wicons {
+
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-left: 0px!important;
+}
+
+.my-counter { margin-bottom: 40px; }
+
+.my-counter .counter-count, .my-counter-2 span.count-heading {
+    font-family: Montserrat!important;
+    font-weight: 500;
+}
+
+.my-counter span.count-heading, .my-counter-2 span.count-heading {
+    display: block;
+    font-family: 'Work Sans'!important;
+    font-weight: 200;
+}
