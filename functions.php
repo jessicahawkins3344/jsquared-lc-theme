@@ -49,6 +49,7 @@ if ( ! function_exists( 'lct_theme_setup' ) ) {
 
 // Load JS and CSS files
 function lct_load_scripts() {
+		wp_enqueue_script( 'countimator', 'https://cdn.rawgit.com/benignware/jquery-countimator/master/dist/js/jquery.countimator.min.js', array ( 'jquery' ), null, true);
 
 	wp_enqueue_style( 'bootstrap4-styles', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css', false, null, 'all' );
  	
