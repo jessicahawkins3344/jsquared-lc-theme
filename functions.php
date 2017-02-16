@@ -3,6 +3,7 @@
 // Delcare Header/Footer compatibility
 define( 'DS_LIVE_COMPOSER_HF', true );
 define( 'DS_LIVE_COMPOSER_HF_AUTO', false );
+define( 'DS_LIVE_COMPOSER_DEV_MODE', true ); // Used by 
 
 // Content Width ( WP requires it and LC uses is to figure out the wrapper width )
 if ( ! isset( $content_width ) )
@@ -52,7 +53,7 @@ function lct_load_scripts() {
 
 	wp_enqueue_style( 'bootstrap4-styles', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css', false, null, 'all' );
  	
-	wp_enqueue_style( 'lct-base-style', get_stylesheet_uri('custom.css'), array(), '1.0' );
+	wp_enqueue_style( 'custom-css', get_stylesheet_uri('custom.css'), array(), '1.0' );
 	wp_enqueue_style( 'lct-base-style', get_stylesheet_uri(), array(), '1.0' );
 
 } add_action( 'wp_enqueue_scripts', 'lct_load_scripts' );
